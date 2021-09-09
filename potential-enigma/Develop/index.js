@@ -41,7 +41,7 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then((inquirerResponse, data) => {
+        .then((inquirerAnswers, data) => {
             console.log("Questions Complete!")
         })
         .catch((err) => {
